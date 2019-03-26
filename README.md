@@ -1,2 +1,2 @@
-# NeuroScience
-Mainan Otak
+# Template
+Template untuk buku informatika standar
