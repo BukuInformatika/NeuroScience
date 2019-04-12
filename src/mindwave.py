@@ -144,8 +144,8 @@ class Headset(object):
                             anu = value[0]
                             itu = value[1]
                         except IndexError:
-                            anu = "100000"
-                            itu = "100000"
+                            anu = "x"
+                            itu = "x"
                         raw=ord(anu)*256+ord(itu)
                         if (raw>=32768):
                             raw=raw-65536
